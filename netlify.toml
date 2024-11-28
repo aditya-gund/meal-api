@@ -1,0 +1,8 @@
+[build]
+command = "nx build mealapi"
+publish = "dist/apps/mealapi"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200

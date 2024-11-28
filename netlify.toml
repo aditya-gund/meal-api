@@ -1,6 +1,7 @@
 [build]
-command = "nx build mealapi"
+command = "nx build mealapi --configuration=production"
 publish = "dist/apps/mealapi"
+
 
 [[redirects]]
 from = "/*"
